@@ -1,0 +1,88 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    text-align: center;
+  
+  }
+  
+  h1 {
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #1893ff, 0 0 30px #18d1ff, 0 0 40px #18dcff, 0 0 55px #18aaff, 0 0 75px #18e4ff;
+    color: #FFFFFF;
+    font-size: 50px;
+  }
+
+  .cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
+  /* .formLine {
+    margin:10px;
+    padding:10px;
+    background-color: cornflowerblue;
+  } */
+  
+  p {
+    color: #000000;
+  }
+  .board {
+      box-shadow: 3px 4px 0px 0px #1564ad;
+      background:linear-gradient(to bottom, #79bbff 25%, #378de5 100%);
+      background-color:#79bbff;
+      border-radius:5px;
+      border:1px solid #337bc4;
+      display:inline-block;
+      color:#ffffff;
+      font-family:Arial;
+      font-size:17px;
+      font-weight:bold;
+      padding:12px 20px;
+      text-decoration:none;
+      text-shadow:0px 1px 0px #528ecc;
+  margin-top: 20px;
+    border-radius: 50%;
+  }
+  
+  .board-container {
+    box-shadow: 3px 4px 0px 0px #ffffff;
+    background:linear-gradient(to bottom, #c6c6c6 5%, #ffffff 100%);
+    background-color:#b1b1b1;
+    border-radius:5px;
+    border:1px solid #787878;
+    margin-left: 45%;
+    margin-right: 45%;
+    cursor:pointer;
+  }
+  
+  
+  .playBtn {
+      box-shadow: 3px 4px 0px 0px #1564ad;
+      background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+      background-color:#79bbff;
+      border-radius:5px;
+      border:1px solid #337bc4;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Arial;
+      font-size:17px;
+      font-weight:bold;
+      padding:12px 20;
+      text-decoration:none;
+      text-shadow:0px 1px 0px #528ecc;
+  margin-top: 20px;
+  
+  }
+  
+  .playBtn:hover {
+    background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+      background-color:#378de5;
+  }
+  
+  .mbtn-playBtn:active {
+      position:relative;
+      top:1px;
+  }
